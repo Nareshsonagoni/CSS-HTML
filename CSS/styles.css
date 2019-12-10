@@ -1,0 +1,178 @@
+body{
+  background-color: #f4f4f4;
+  color: #555555;
+
+  /* font-family: Verdana, Helvetica, serif;
+  font-size: 16px;
+  font-weight: normal; */
+
+  font: normal 18px Arial, Helvetica, sans-serif;
+
+  line-height: 1.6em;
+  margin: 0;
+}
+/* id's are unique, we can not change them or assign them to
+another. Class can be used again*/
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+.box-1{
+  background-color: green;
+  color:orange;
+
+
+  /* border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid; */
+
+  /* border: 3px red solid;
+  border-left: 3px blue solid;
+  border-right: 3px blue solid; */
+  border: 5px blue solid;
+  border-width: 10px;
+  border-top-style:dotted;
+  border: 6px purple solid;
+  padding-top: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover{
+  color: red;
+}
+a:active{
+  color: green;
+}
+/* a:visited{
+  color: purple;
+} */
+.clr{
+  clear: both;
+}
+
+.box-1 h1{
+  font-family: Tahoma;
+  font-weight: 800;
+  font-style: italic;;
+  text-decoration: underline;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+.box-2{
+  border: 3px dotted #ccc;
+  padding: 20px;
+  margin: 20px 0;
+}
+.categories{
+  border: 1px grey solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories h2{
+  text-align: center;
+}
+
+.categories ul{
+  list-style: none;
+  list-style: lower-alpha;
+}
+.categories li{
+  padding-bottom: 8px;
+  border-bottom: dotted 1px #333;
+  /* list-style-image: url('../images/check.png'); */
+}
+
+.my-form{
+  padding:20px;
+}
+.my-form .form-group{
+  padding-bottom:15px;
+}
+.my-form label{
+  display: block;
+}
+.my-form textarea{
+  padding: 8px;
+  width: 100%;
+}
+.my-form input[type="submit"]{
+  background-color: red;
+  padding: 10px 15px;
+  border: none;
+}
+.block{
+  float: left;
+  width: 33.3%;
+  border: 2px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#main-block{
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+
+}
+#side-bar{
+  float: right;
+  width: 30%;
+  background-color: black;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.p-box{
+  width: 80%;
+  height: 500px;
+  border: 1px dotted #000;
+  margin-top: 30px;
+  position: relative;
+  background-image: url('../images/abs.jpg');
+}
+
+.p-box h1{
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+
+.p-box h2{
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+.fix-me{
+  border: 1px solid #000;
+  background-color: black;
+  color: white;
+  padding: 3px;
+  border-radius: 8px;
+  position: fixed;
+  top: 300px;
+}
+
+.my-list li:first-child{
+  background: red;
+}
+
+.my-list li:nth-child(5){
+  background: blue;
+}
+.my-list li:nth-child(7){
+  background: grey;
+}
+.my-list li:last-child{
+  background: green;
+}
